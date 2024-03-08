@@ -4,13 +4,18 @@
 @section('conteudo')
     <div class="container">
         <div class="row no-gutters justify-content-center mt-5">
+
             <div class="col-12 col-sm-10">
+                <div class="d-flex justify-content-end mb-4">
+                    <a href="{{url('/novocliente')}}" class="btn btn-primary">Cadastrar Cliente</a>
+                </div>
                 <div class="card border">
                     <div class="card-header">
                         <div class="card-title m-0 text-center">
-                            <strong>Cadastro de Cliente</strong>
+                            <strong>Clientes Cadastrados</strong>
                         </div>
                     </div>
+
                     <div class="card-body">
                         <table class="table">
                             <thead>
