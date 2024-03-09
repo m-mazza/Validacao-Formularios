@@ -46,16 +46,6 @@ class ClienteController extends Controller
             'email'     =>'required|email|unique:clientes',
         ];
         $mensagens = [
-            // 'nome.required'     => 'O campo nome está vazio',
-            // 'nome.min'          => 'O campo nome deve ter no mínimo 3 caracteres',
-            // 'nome.max'          => 'O campo nome contém mais que 46 caracteres',
-            // 'idade.required'    => 'O campo idade está vazio',
-            // 'endereco.required' => 'O campo endereço está vazio',
-            // 'endereco.min'      => 'O campo endereço deve ter no mínio 3 caracteres',
-            // 'email.required'    => 'O campo email está vazio',
-            // 'email.email'       => 'O email digitado não é valido',
-            // 'email.unique'      => 'O email inserido já está cadastrado',
-
             'required'  => 'O campo :attribute está vazio!',
             'min'       => 'O campo :attribute deve conter no mínimo :min caracteres',
             'max'       => 'O campo :attribute deve conter no máximo :max caracteres',
